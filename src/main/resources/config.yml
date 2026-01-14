@@ -1,0 +1,10 @@
+# Worlds where players are NOT allowed to use myspawn
+# You can add or remove worlds freely.
+blocked-worlds
+  - world
+  - world_nether
+  - world_the_end
+  - bskyblock_world_nether
+  - bskyblock_world_the_end
+  - oneblock_world_nether
+  - oneblock_world_the_end

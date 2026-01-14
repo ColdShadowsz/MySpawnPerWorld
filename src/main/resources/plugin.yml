@@ -1,0 +1,21 @@
+name: MySpawnPerWorld
+main: com.cold.myspawn.Main
+version: 1.0
+api-version: 1.20
+
+softdepend:
+  - Essentials
+  - EssentialsSpawn
+
+commands:
+  myspawn:
+    description: Set your personal spawn for the current world
+    usage: /myspawn [player]
+  removespawn:
+    description: Remove a player's spawn for the current world
+    usage: /removespawn <player>
+
+permissions:
+  myspawn.admin:
+    description: Allows setting and removing spawns for other players
+    default: op
